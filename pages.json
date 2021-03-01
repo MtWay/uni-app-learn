@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+		,{
+		    "path" : "pages/pdf/pdf",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "pdf"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/dowload/dowload",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "下载列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/dowload/dowload1",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "下载列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/index/canvas",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图片编辑",
+                "enablePullDownRefresh": false,
+				"backgroundColor":"#3F536E"
+            }
+            
+        }
+        ,{
+            "path" : "pages/webView/webView",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "webView",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	 "tabBar": {
+	    "list": [{
+	      "pagePath": "pages/index/index",
+	      "text": "首页1"
+	    },{
+	      "pagePath": "pages/pdf/pdf",
+	      "text": "pdf"
+	    }
+		,{
+		  "pagePath": "pages/dowload/dowload1",
+		  "text": "下载"
+		}]
+	  }
+}
